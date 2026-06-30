@@ -13,16 +13,25 @@
        margin: 0 auto;
        padding: 16px;
         }
+
         main{
        background-color: rgb(113, 5, 5);
        color:rgb(232, 187, 108);
        margin: 0 auto; 
         padding: 16px;
         }
+        article{
+            display: flex;
+        }
+
         img{
          width: 80px; 
          height: 80px;
         }
+        .artigo-autor{
+            font-weight: bold;
+        }
+
     </style>
 </head>
 <body>
@@ -33,14 +42,21 @@
     <main>
         <article>
             <img src="imagem-blog.png">
-            <h2>nosso primeiro desejo consumido!</h2>
-            <p>bem vindos, ao meu blog de desejos ;]</p>
+            <div>
+                <p class=".artigo-autor"> Meu primeiro post sobre consumo!</p>
+                <h2>nosso primeiro desejo consumido!</h2>
+                <p>bem vindos, ao meu blog de desejos ;]</p>
+                <button>⚜️<span> 0 </span></button>
+                <button>🍷<span> 0 </span></button>
+            </div>
         </article>
+
         <article>
             <img src="segundo-post.png">
+            <div>
+            <p class=".artigo-autor"> Meu segundo post sobre consumo!</p>
             <h2>meu segundo consumoo;D</h2>
             <p>vocês gostam de consumir...</p>
-        </article>
         <ul>
                 <li>dinheiro - gostar - cadernoo</li>
                 <li>calça - sapatos - perfumes </li>
@@ -48,6 +64,13 @@
                 <li>felicidade - prazer - liçãoes</li>
                 <li>caderno - diario - cartãoes</li>
         </ul>
+                <button>⚜️<span> 0 </span></button>
+                <button>🍷<span> 0 </span></button>
+        </div>
+    </article>
     </main>
+    <footer>
+        <h3>Todos os direitos estão reservados ao autor do blog - Karoline Barbera Vaz</h3>
+    </footer>
 </body>
 </html>
